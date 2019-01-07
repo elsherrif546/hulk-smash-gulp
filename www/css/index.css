@@ -406,6 +406,23 @@ body {
   margin: 0 auto;
   width: 77.5rem; }
 
+.header {
+  display: none; }
+  @media (min-width: 47.9375rem) {
+    .header {
+      display: flex;
+      top: 0;
+      max-width: auto; } }
+
+.subscribe-now {
+  position: relative;
+  top: 1rem;
+  left: 2rem; }
+
+.main {
+  max-width: 60rem;
+  background: lightblue; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

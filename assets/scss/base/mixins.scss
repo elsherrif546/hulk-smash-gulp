@@ -1,0 +1,21 @@
+// Breakpt Mixin
+@mixin breakpoint($pt) {
+  @if $pt == S {
+  @media (min-width: 37.5rem) { @content; }
+  }
+  @else if $pt == M {
+    @media (min-width: 47.9375rem) { @content; }
+  }
+  @else if $pt == L {
+    @media (min-width: 60rem) { @content; }
+  }
+  @else if $pt == XL {
+    @media (min-width: 65.25rem) { @content; }
+  }
+  @else if $pt == XXL {
+    @media (min-width: 67.5rem) { @content; }
+  }
+  @else if $pt == XXXL {
+    @media (min-width: 71rem) { @content; }
+  }
+}
